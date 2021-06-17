@@ -9,7 +9,10 @@
     <meta property="og:tittle" content="Это мояпервая страница...">
     
     <title>Максим Денисевич - Веб-разработчик</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   
   <header>
@@ -36,7 +39,8 @@
        <input type="submit" value="Мои работы">
    </div></div>
    
-   <div><h3>ОБО МНЕ</h3></div>
+   <div class="second">
+   <h3>ОБО МНЕ</h3>
    
    <div>
       
@@ -46,47 +50,44 @@
        <br><input type="submit" value="Скачать резюме">
        
    </div>
+   </div>
    
-   <div><h3>ЧТО Я УМЕЮ</h3></div>
+   <div class="second1"><h3>ЧТО Я УМЕЮ</h3></div>
    
    <div class="item_skills">
+     <ul>
       
-       <img src="Путь до изображения" alt="Изображение" >
+       <li><img src="img/Nout.png" alt="Nout" >
        <h4>Веб-дизайн</h4>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Ut nemo, soluta in nisi! Laborum, architecto mollitia possimus a, ut quibusdam.</p>
-       
-   </div>
-       
-   <div class="item_skills">
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Ut nemo, soluta in nisi! Laborum, architecto mollitia possimus a, ut quibusdam.</p></li>
       
-       <br><img src="Путь до изображения" alt="Изображение" >
+       <li><br><img src="img/Znak.png" alt="Znak" >
        <h4>Разработка</h4>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Ut nemo, soluta in nisi! Laborum, architecto mollitia possimus a, ut quibusdam.</p>
-       
-   </div>
-       
-   <div class="item_skills">
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Ut nemo, soluta in nisi! Laborum, architecto mollitia possimus a, ut quibusdam.</p></li>
       
-       <br><img src="Путь до изображения" alt="Изображение" >
+       <li><br><img src="img/Raketa.png" alt="Raketa" >
        <h4>CEO-Оптимизация</h4>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Ut nemo, soluta in nisi! Laborum, architecto mollitia possimus a, ut quibusdam.</p>
-       
-   </div>
-       
-   <div class="item_skills">
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Ut nemo, soluta in nisi! Laborum, architecto mollitia possimus a, ut quibusdam.</p></li>
       
-       <br><img src="Путь до изображения" alt="Изображение" >
+       <li><br><img src="img/Gram.png" alt="Gram" >
        <h4>Маркетинг</h4>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Ut nemo, soluta in nisi! Laborum, architecto mollitia possimus a, ut quibusdam.</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Ut nemo, soluta in nisi! Laborum, architecto mollitia possimus a, ut quibusdam.</p></li>
+       
+       </ul>
        
    </div>
    
-   <div><h3>КЕЙСЫ</h3></div>
+   <div class="second1"><h3>КЕЙСЫ</h3></div>
      
-   <div class="item_skills">
+   <div class="item_1">
       
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-       <img src="Путь до изображения" alt="Изображение" >
+       <img src="img/Keys.jpg" alt="Изображение" >
+       
+       </div>
+       
+       <div class="content">
+       
        <h4>CLIENT:</h4>
        <p>Какая-то компания</p>
        <h4>WEBSITE:</h4>
@@ -95,16 +96,16 @@
        
    </div>
    
-   <div class="item_skills">
+   <div class="item_1">
        
        <h4>Название проекта</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, soluta.</span> <br>Ut nemo, soluta in nisi! Laborum, architecto mollitia possimus a, ut quibusdam.</p>
         
    </div>
    
-   <div><h3>РАСЧЕТ СТОИМОСТИ</h3></div>
+   <div class="second1"><h3>РАСЧЕТ СТОИМОСТИ</h3></div>
        
-   <div>
+   <div class="type">
        
        <h4>ТИП САЙТА</h4>
        <select name="list1" id="list">
@@ -113,9 +114,6 @@
          <option value="Opt3">Option 3</option>
          <option value="Opt4">Option 4</option>
       </select>
-      </div>
-      
-      <div>
       
        <h4>ДИЗАЙН</h4>
        <select name="list1" id="list">
@@ -125,10 +123,6 @@
          <option value="Opt4">Option 4</option>
       </select>
       
-      </div>
-      
-      <div>
-      
        <h4>АДАПТИВНОСТЬ</h4>
        <select name="list1" id="list">
          <option value="Opt1">Option 1</option>
@@ -137,72 +131,62 @@
          <option value="Opt4">Option 4</option>
       </select>
       
+      <h4>Сроки</h4>
+      
+      <h4>Стоимость</h4>
+      
       </div>
-      
-      <div><h4>Сроки</h4></div>
-      
-      <div><h4>Стоимость</h4></div>
    
-   <div><h3>НЕМНОГО СТАТИСТИКИ</h3></div>
+   <div class="second1"><h3>НЕМНОГО СТАТИСТИКИ</h3></div>
        
-       <div>
+       <div class="stat">
+       <ul>
        
-       <img src="Путь до изображения" alt="Изображение" >
-       <p ><b>120</b> <br>счастливых клиентов</p>
+       <li><img src="img/Smail.jpg" alt="Изображение" >
+       <p ><b>120</b> <br>счастливых клиентов</p></li>
        
-       </div>
+       <li><img src="img/Skobki.jpg" alt="Изображение" >
+       <p ><b>4,600</b> <br>часов работы</p></li>
        
-       <div>
+       <li><img src="img/Gal.jpg" alt="Изображение" >
+       <p ><b>340</b> <br>проектов завершено</p></li>
        
-       <img src="Путь до изображения" alt="Изображение" >
-       <p ><b>4,600</b> <br>часов работы</p>
+       <li><img src="img/Kubok.jpg" alt="Изображение" >
+       <p ><b>23</b> <br>наград получено</p></li>
        
-       </div>
-       
-       <div>
-       
-       <img src="Путь до изображения" alt="Изображение" >
-       <p ><b>340</b> <br>проектов завершено</p>
-       
-       </div>
-       
-       <div>
-       
-       <img src="Путь до изображения" alt="Изображение" >
-       <p ><b>23</b> <br>наград получено</p>
-       
+       </ul>
    </div>
    
-   <div><h3>ОТЗЫВЫ</h3></div>
+   <div class="second1"><h3>ОТЗЫВЫ</h3></div>
        
-       <div class="item_skills">
+       <div class="item_skills_a">
        
-       <img src="Путь до изображения" alt="Изображение" >
+       <img src="img/Foto.jpg" alt="Изображение" >
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.p <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, soluta.</span> <br>Ut nemo, soluta in nisi! Laborum, architecto mollitia possimus a, ut quibusdam.</p> <span><br><b>Михаил</b>, Ген директор ПАО "Газпром"</span>
        
    </div>
    
-   <div><h3>МОИ КОНТАКТЫ</h3></div>
+   <div class="second1"><h3>МОИ КОНТАКТЫ</h3></div>
        
        <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></div>
        
        <div class="item_skills">
        
-       <img src="Путь до изображения" alt="Изображение" >
+       <img src="img/Geo.jpg" alt="Изображение" >
        <p>Санкт-Петербург <br>Невский проспект 11</p>
        
        </div>
        
        <div class="item_skills">
        
-       <img src="Путь до изображения" alt="Изображение" >
+       <img src="img/Konvert.jpg" alt="Изображение" >
        <p>info@companyname.com</p>
        
        </div>
        
        <div class="item_skills">
        
-       <img src="Путь до изображения" alt="Изображение" >
+       <img src="img/Truba.jpg" alt="Изображение" >
        <p>+7 999 999-99-99</p>
        
        </div>
@@ -211,7 +195,8 @@
        
        <input type="text" name="text_input" placeholder="Имя">
        <input type="text" name="text_input" placeholder="Email">
-       <br><input type="text" name="text_input" placeholder="Сообщение">
+          
+       <br><textarea type="text" name="text_input" placeholder="Сообщение"> </textarea>
        
        </div>
        
@@ -219,17 +204,17 @@
        <br><input type="submit" value="Отправить">
        </div>
        
-       <div><br><img src="Путь до изображения" alt="Изображение" ></div>
+       <div><br><img src="img/Fb.jpg" alt="Изображение" ></div>
        
-       <div><img src="Путь до изображения" alt="Изображение" ></div>
+       <div><img src="img/Tvit.jpg" alt="Изображение" ></div>
        
-       <div><img src="Путь до изображения" alt="Изображение" ></div>
+       <div><img src="img/Bol.jpg" alt="Изображение" ></div>
        
-       <div><img src="Путь до изображения" alt="Изображение" ></div>
+       <div><img src="img/Kot.jpg" alt="Изображение" ></div>
        
-       <div><img src="Путь до изображения" alt="Изображение" ></div>
+       <div><img src="img/Inst.jpg" alt="Изображение" ></div>
        
-       <div><img src="Путь до изображения" alt="Изображение" ></div>
+       <div><img src="img/In.jpg" alt="Изображение" ></div>
    
 </body>
 </html>
